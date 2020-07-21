@@ -1,0 +1,16 @@
+
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: local('Roboto-Thin'), url(./../fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Galada-Regular';
+  src: local('Galada-Regular'), url(./../fonts/Galada/Galada-Regular.ttf) format('truetype');
+}

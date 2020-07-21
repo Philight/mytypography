@@ -1,0 +1,17 @@
+
+
+.footing {
+	padding: 2px;
+	text-align: center;
+	margin-top: 10px;
+	
+	background-color: #424242;
+	color: white;
+	font-size: 20px;
+
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	margin-left: -50vw;
+	left: 50%;
+}
