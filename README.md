@@ -1,9 +1,10 @@
 ## TODO
 - add Context for State Management
 
-## Technologies used:
+## Built with:
 * Bootstrap
 * Google Fonts API
+* Navi (for adding meta tags)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -8,17 +8,17 @@ class InputBar extends Component {
 
 	render() {
 	    return (
-	      <div className="col-md-7 col-xs-12">
+	      <div className="col-xs-12 col-sm-12 col-md-6 zero-padding">
 			<form className="inputform">
 				<label>
-					Type your text here:
+					Type your text
 					<br />
 					<input
 						className="inputform__input"
 						type="text" 
 						value={this.props.inputValue}               
 						onChange={this.props.onChange}
-						placeholder="C'est la vie..."
+						placeholder="myTypography"
 						autocomplete="off"
 					/>
 				</label>

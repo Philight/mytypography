@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 
 .heading {
-  padding: 20px;
   text-align: center;
   
   background-color: #ed2445;
   color: white;
   font-family: 'Petit Formal Script';
-  font-size: 36px;
+  
+  font-size: 28px;
+  padding: 14px;
 }
 
 .full-width {
@@ -15,4 +16,17 @@
   position: relative;
   margin-left: -50vw;
   left: 50%;  
+}
+
+@media screen and (min-height: 640px) {
+  .heading { 
+    font-size: 34px; 
+    padding: 17px;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  .heading { 
+    font-size: 40px;
+    padding: 20px; }
 }

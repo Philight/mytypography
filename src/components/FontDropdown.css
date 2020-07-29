@@ -1,5 +1,27 @@
 
 .dropdownform label input {
-	width: 40px;
+	width: 30px;
 	text-align: center;
+
+	margin-left: 6px;
+	border: none;
+	border-bottom: 2px solid #ed2445;
+}
+
+.dropdownform label input:focus {
+	outline: none;
+	border: 2px solid #ed2445;
+}
+
+.responsive-font-size {
+	font-size: 12px;
+}
+
+@media screen and (min-height: 640px) {
+  .responsive-font-size { font-size: 14px; }
+}
+
+@media screen and (min-height: 900px) {
+  .responsive-font-size { font-size: 16px; }
+  .dropdownform label input { width: 40px; }
 }
