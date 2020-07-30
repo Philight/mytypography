@@ -21,14 +21,57 @@
    border-bottom: 3px solid #ed2445;
 }
 
-@media screen and (min-height: 640px) {
-  .inputform__input { 
-  	font-size: 14px;
-  	width: 100px }
+/*** MEDIA QUERIES ***/
+
+/* LANDSCAPE ORIENTATION */
+
+@media screen and (orientation : landscape) {
+	.inputform__input { 
+  		font-size: 10px;
+  		width: 80px 
+  	}
 }
 
-@media screen and (min-height: 900px) {
+@media screen and (min-width: 598px) and (orientation : landscape) {
+	.inputform__input { 
+  		font-size: 12px;
+  		width: 90px; 
+  	}
+}
+
+@media screen and (min-width: 900px) and (orientation : landscape) {
+	.inputform__input { 
+  		font-size: 14px;
+  		width: 100px; 
+  	}
+}
+
+@media screen and (min-width: 1280px) and (orientation : landscape) {
+	.inputform__input { 
+  		font-size: 20px;
+  		width: 140px; 
+  	}
+}
+
+/* PORTRAIT ORIENTATION */
+
+@media screen and (min-height: 640px) and (orientation : portrait) {
+  .inputform__input { 
+  		font-size: 14px;
+  		width: 100px 
+  	}
+}
+
+@media screen and (min-height: 900px) and (orientation : portrait) {
   .inputform__input { 
   	font-size: 16px;
-  	width: 110px }
+  	width: 110px 
+  }
+}
+
+@media screen and (min-height: 1280px) and (orientation : portrait) {
+  .inputform__input { 
+  	font-size: 20px;
+  	width: 140px 
+  }
 }

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import './FontDropdown.css';
+import './FontProperties.css';
 import { FontList } from './FontList';
 
-class FontDropdown extends Component {
+class FontProperties extends Component {
   	constructor(props) {
 	    super(props);
 	}
@@ -11,11 +11,11 @@ class FontDropdown extends Component {
  	
     return (
       <div className="col-xs-12 col-sm-12 col-md-6 zero-padding">
-        <form className="dropdownform">
+        <form className="properties-form">
 			<label>
 				Font Properties
 				<br />
-				<div>
+				<div className="properties-flex-display">
 					<select className="responsive-font-size" value={this.props.fontFamily} onChange={this.props.onChangeFontFamily}>
 						<option></option>
 						{	FontList.FontFamilies.map(eachFamily =>
@@ -50,4 +50,4 @@ class FontDropdown extends Component {
   }
 }
 
-export default FontDropdown;
+export default FontProperties;

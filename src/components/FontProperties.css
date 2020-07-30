@@ -1,0 +1,62 @@
+
+.properties-form label input {
+	width: 30px;
+	text-align: center;
+
+	margin-left: 6px;
+	border: none;
+	border-bottom: 2px solid #ed2445;
+}
+
+.properties-form label input:focus {
+	outline: none;
+	border: 2px solid #ed2445;
+}
+
+.responsive-font-size {
+	font-size: 12px;
+}
+
+.properties-flex-display {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+/*** MEDIA QUERIES ***/
+
+/* LANDSCAPE ORIENTATION */
+
+@media screen and (orientation : landscape) {
+   	.responsive-font-size { font-size: 10px; }
+}
+
+@media screen and (min-width: 598px) and (orientation : landscape) {
+	.responsive-font-size { font-size: 12px; }
+}
+
+@media screen and (min-width: 900px) and (orientation : landscape) {
+	.responsive-font-size { font-size: 14px; }
+}
+
+@media screen and (min-width: 1280px) and (orientation : landscape) {
+	.responsive-font-size { font-size: 20px; }
+	.properties-form label input { width: 50px; }
+}
+
+/* PORTRAIT ORIENTATION */
+
+@media screen and (min-height: 640px) and (orientation : portrait) {
+  .responsive-font-size { font-size: 14px; }
+}
+
+@media screen and (min-height: 900px) and (orientation : portrait) {
+  .responsive-font-size { font-size: 16px; }
+  .properties-form label input { width: 40px; }
+}
+
+@media screen and (min-height: 1280px) and (orientation : portrait) {
+  .responsive-font-size { font-size: 20px; }
+  .properties-form label input { width: 50px; }
+  .properties-flex-display { flex-direction: column; }
+}

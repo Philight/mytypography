@@ -10,9 +10,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const routes = mount({
   '/': route({
-    title: 'My Great Page',
+    title: 'myTypography',
     head: <>
-      	<meta name="description" content="My Great description" />
+      <meta name="description" content="My Great description" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </>,
     view: <App /> 

@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Heading from './components/Heading';
 import FontResult from './components/FontResult';
-import FontDropdown from './components/FontDropdown';
+import FontProperties from './components/FontProperties';
 import InputBar from './components/InputBar';
 import Footing from './components/Footing';
 
@@ -47,7 +47,7 @@ class App extends Component {
                 inputValue={this.state.inputValue}
                 onChange={this.handleInputChange.bind(this)}
               />
-              <FontDropdown 
+              <FontProperties 
                 fontFamily={this.state.fontFamily}
                 onChangeFontFamily={this.handleFontFamily.bind(this)}
                 fontWeight={this.state.fontWeight}

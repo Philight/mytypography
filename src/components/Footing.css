@@ -1,16 +1,31 @@
 
 
 .footing {
-	padding: 2px;
 	text-align: center;
 	
 	background-color: #424242;
 	color: white;
 	font-size: 20px;
+	padding: 2px;
 
 	width: 100vw;
 	position: fixed;
 	bottom: 0;
 	margin-left: -50vw;
 	left: 50%;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media screen and (orientation : landscape) {
+  .footing { 
+    font-size: 16px; 
+  }
+}
+
+@media screen and (min-width: 1280px) and (orientation : landscape) {
+  .footing { 
+    font-size: 22px;
+    padding: 4px; 
+  }
 }

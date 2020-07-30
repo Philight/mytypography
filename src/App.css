@@ -18,6 +18,9 @@
   background-color: lightblue;
   background-image: url("./images/minimalistbackground.jpg");
 
+  display: flex;
+  justify-content: center;
+
   height: 100vh;
 }
 
@@ -39,7 +42,7 @@
   width: 90% !important;
   margin: 5% !important;
 
-  height: calc(80% - 40px); /* -10% margin, -10% padding-top, -40px heading padding*/
+  height: calc(80% - 56px); /* -10% margin, -10% padding-top, -28px heading -28px padding*/
 }
 
 .input-bar-wrapper {
@@ -47,6 +50,8 @@
 
   padding-left: 5px;
   padding-right: 10px;
+
+  margin-bottom: 2%;
 
   font-size: 14px;
   font-weight: bold;
@@ -59,13 +64,58 @@
   border-color: #f75348 #ed2445;
 }
 
+.zero-padding {
+ padding: 0px !important; 
+}
 
-@media screen and (min-height: 568px) {
+/*** MEDIA QUERIES ***/
+
+/* LANDSCAPE ORIENTATION */
+
+@media screen and (orientation : landscape) {
+  .container { padding-top: 5%; }
+  .container-body { 
+    margin: 3% !important;
+    width: 94% !important;
+    height: calc( 89% - 40px - 20px);
+  }
+  .input-bar-wrapper { 
+    font-size: 11px;
+    height: 40%;
+  }
+  .font-result-wrapper { height: 60% }
+}
+
+@media screen and (min-width: 598px) and (orientation : landscape) {
+  .container-body { height: calc(89% - 48px - 20px - 10px); }
+  .input-bar-wrapper { font-size: 13px; }
+}
+
+@media screen and (min-width: 900px) and (orientation : landscape) {
+  .container-body { 
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    width: 90% !important;
+    height: calc(89% - 56px - 20px - 10px);
+  }
+  .input-bar-wrapper { font-size: 16px; }
+}
+
+@media screen and (min-width: 1280px) and (orientation : landscape) {
+  .container-body { 
+    height: calc(89% - 72px - 30px - 10px);
+  }
+  .input-bar-wrapper { font-size: 22px; }
+}
+
+/* PORTRAIT ORIENTATION */
+
+@media screen and (min-height: 568px) and (orientation : portrait) {
   .input-bar-wrapper { height: 30% }
   .font-result-wrapper { height: 70% }
 }
 
-@media screen and (min-height: 640px) {
+@media screen and (min-height: 640px) and (orientation : portrait) {
   .container-body {
     margin-top: 10% !important;
   }
@@ -75,9 +125,9 @@
   }
 }
 
-@media screen and (min-height: 900px) {
+@media screen and (min-height: 900px) and (orientation : portrait) {
   /* start of tablet styles*/
-    .container { padding-top: 15% }
+  .container { padding-top: 15% }
   .input-bar-wrapper { 
     font-size: 18px;
     height: 25% 
@@ -85,29 +135,17 @@
   .font-result-wrapper { height: 75% }
 }
 
-@media screen and (min-height: 1280px) {
-  .input-bar-wrapper { height: 20% }
+@media screen and (min-height: 1280px) and (orientation : portrait) {
+  .input-bar-wrapper { 
+    font-size: 22px;
+    height: 20% }
   .font-result-wrapper { height: 80% }
 
+
 }
 
-@media screen and (min-width: 576px) {
-/* start of phone styles */
-  
-}
-
+/* bootstrap breakpoint of medium tablet styles, inputBar and FontProperties in one line */
 @media screen and (min-width: 768px) {
-/* start of medium tablet styles */
   .input-bar-wrapper { height: 15% }
   .font-result-wrapper { height: 85% }
-
-}
-
-@media screen and (min-width: 991px) {
-/* start of large tablet styles */
-
-}
-
-.zero-padding {
- padding: 0px !important; 
 }
