@@ -11,8 +11,8 @@
    border: none;
    border-bottom: 2px solid #ed2445;
 
-   font-size: 12px;  
-   width: 90px;   
+   font-size: 11px;  
+   width: 80px;   
    transition: width 0.4s ease-in-out;
 }
 
@@ -28,7 +28,7 @@
 @media screen and (orientation : landscape) {
 	.inputform__input { 
   		font-size: 10px;
-  		width: 80px 
+  		width: 70px 
   	}
 }
 
@@ -57,8 +57,8 @@
 
 @media screen and (min-height: 640px) and (orientation : portrait) {
   .inputform__input { 
-  		font-size: 14px;
-  		width: 100px 
+  		font-size: 13px;
+  		width: 90px 
   	}
 }
 

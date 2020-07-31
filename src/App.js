@@ -16,7 +16,9 @@ class App extends Component {
       inputValue: "",
       fontFamily: "",
       fontWeight: "",
-      fontSize: 20
+      fontSize: 20,
+      boldChecked: false,
+      italicChecked: false,
     }
   }
 
@@ -34,6 +36,13 @@ class App extends Component {
 
   handleFontSize(event) {
     this.setState({ fontSize: event.target.value });
+  }
+
+  handleCheckbox(event, name) {
+    if (name === 'bold')
+      this.setState({ boldChecked: event.target.checked });
+    else
+      this.setState({ italicChecked: event.target.checked });
   }
 
   render () {
@@ -54,6 +63,9 @@ class App extends Component {
                 onChangeFontWeight={this.handleFontWeight.bind(this)}
                 fontSize={this.state.fontSize}
                 onChangeFontSize={this.handleFontSize.bind(this)}
+                boldChecked={this.state.boldChecked}
+                italicChecked={this.state.italicChecked}
+                onClickCheckbox={this.handleCheckbox.bind(this)}
               />
             </div>
             <div className="row font-result-wrapper">
@@ -61,6 +73,8 @@ class App extends Component {
                 inputValue={this.state.inputValue}
                 fontFamily={this.state.fontWeight}
                 fontSize={this.state.fontSize}
+                boldChecked={this.state.boldChecked}
+                italicChecked={this.state.italicChecked}
               />
             </div>
           </div>

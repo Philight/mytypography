@@ -1,34 +1,111 @@
 
-.properties-form label input {
+.input-font-size {
 	width: 30px;
 	text-align: center;
 
-	margin-left: 6px;
+	margin-left: 3px;
 	border: none;
 	border-bottom: 2px solid #ed2445;
 }
 
-.properties-form label input:focus {
+.input-font-size:focus {
 	outline: none;
 	border: 2px solid #ed2445;
 }
 
 .responsive-font-size {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .properties-flex-display {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
+
 }
 
-/*** MEDIA QUERIES ***/
+.zero-margin {
+	margin: 0 !important;
+}
+
+/*** //  CHECKBOX CUSTOMIZATION  // ***/
+
+.checkbox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	float: left;
+	align-items: center;
+
+	border: 0px solid black;
+
+	width: 40px;
+	padding: 0 !important;
+
+	color: #ed2445;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a red background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #ed2445;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/*** //  END OF CHECKBOX CSS  // ***/
+
+
+
+/***  MEDIA QUERIES  ***/
 
 /* LANDSCAPE ORIENTATION */
 
 @media screen and (orientation : landscape) {
    	.responsive-font-size { font-size: 10px; }
+   	.properties-flex-display { float: left; }
+   	.checkbox { position: relative; top: -14px; }
 }
 
 @media screen and (min-width: 598px) and (orientation : landscape) {
@@ -37,26 +114,28 @@
 
 @media screen and (min-width: 900px) and (orientation : landscape) {
 	.responsive-font-size { font-size: 14px; }
+	.checkbox { width: 50px; }
 }
 
 @media screen and (min-width: 1280px) and (orientation : landscape) {
-	.responsive-font-size { font-size: 20px; }
+	.responsive-font-size { font-size: 19px; }
 	.properties-form label input { width: 50px; }
 }
 
 /* PORTRAIT ORIENTATION */
 
 @media screen and (min-height: 640px) and (orientation : portrait) {
-  .responsive-font-size { font-size: 14px; }
+  .responsive-font-size { font-size: 12px; }
 }
 
 @media screen and (min-height: 900px) and (orientation : portrait) {
   .responsive-font-size { font-size: 16px; }
   .properties-form label input { width: 40px; }
+  .checkbox { width: 50px; }
 }
 
 @media screen and (min-height: 1280px) and (orientation : portrait) {
   .responsive-font-size { font-size: 20px; }
-  .properties-form label input { width: 50px; }
+  .properties-form label input { width: 50px;}
   .properties-flex-display { flex-direction: column; }
 }

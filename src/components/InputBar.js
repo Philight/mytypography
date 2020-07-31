@@ -8,10 +8,10 @@ class InputBar extends Component {
 
 	render() {
 	    return (
-	      <div className="col-xs-12 col-sm-12 col-md-6 zero-padding">
+	      <div className="col-xs-12 col-sm-12 col-md-5 col-lg-6 zero-padding">
 			<form className="inputform">
 				<label>
-					Type your text
+					Your Text
 					<br />
 					<input
 						className="inputform__input"

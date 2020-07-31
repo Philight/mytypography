@@ -11,11 +11,13 @@ class FontResult extends Component {
     const myStyle = {
       fontFamily: this.props.fontFamily,
       fontSize: this.props.fontSize + 'px',
+      fontWeight: (this.props.boldChecked) ? 'bold' : 'normal',
+      fontStyle: (this.props.italicChecked) ? 'italic' : 'normal',
     }
 
     return (
       <div className="font-result col-md-12">
-        	<label style={myStyle}>{this.props.inputValue}</label>
+          <output style={myStyle}>{this.props.inputValue}</output>
       </div>
     )
   }

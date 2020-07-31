@@ -1,19 +1,4 @@
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .outer-container {
   background-color: lightblue;
   background-image: url("./images/minimalistbackground.jpg");
@@ -39,10 +24,10 @@
   height: 100%;
 }
 .container-body {
-  width: 90% !important;
-  margin: 5% !important;
+  width: 94% !important;
+  margin: 3% !important;
 
-  height: calc(80% - 56px); /* -10% margin, -10% padding-top, -28px heading -28px padding*/
+  height: calc(84% - 48px); /* -6% margin, -10% padding-top, -48px heading -22px footing */
 }
 
 .input-bar-wrapper {
@@ -53,7 +38,7 @@
 
   margin-bottom: 2%;
 
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -65,19 +50,19 @@
 }
 
 .zero-padding {
- padding: 0px !important; 
+  padding: 0px !important; 
 }
 
-/*** MEDIA QUERIES ***/
+/******************* //  MEDIA QUERIES  // *******************/
 
-/* LANDSCAPE ORIENTATION */
+/**  LANDSCAPE ORIENTATION  **/
 
 @media screen and (orientation : landscape) {
   .container { padding-top: 5%; }
   .container-body { 
     margin: 3% !important;
     width: 94% !important;
-    height: calc( 89% - 40px - 20px);
+    height: calc( 89% - 48px - 20px);
   }
   .input-bar-wrapper { 
     font-size: 11px;
@@ -108,7 +93,8 @@
   .input-bar-wrapper { font-size: 22px; }
 }
 
-/* PORTRAIT ORIENTATION */
+
+/**  PORTRAIT ORIENTATION  **/
 
 @media screen and (min-height: 568px) and (orientation : portrait) {
   .input-bar-wrapper { height: 30% }
@@ -117,35 +103,31 @@
 
 @media screen and (min-height: 640px) and (orientation : portrait) {
   .container-body {
-    margin-top: 10% !important;
+    margin: 5% !important;
+    width: 90% !important;
   }
 
   .input-bar-wrapper {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media screen and (min-height: 900px) and (orientation : portrait) {
   /* start of tablet styles*/
-  .container { padding-top: 15% }
+  .container { padding-top: 13% }
   .input-bar-wrapper { 
     font-size: 18px;
-    height: 25% 
+    height: 30% 
   }
-  .font-result-wrapper { height: 75% }
+  .font-result-wrapper { height: 70% }
 }
 
 @media screen and (min-height: 1280px) and (orientation : portrait) {
-  .input-bar-wrapper { 
-    font-size: 22px;
-    height: 20% }
-  .font-result-wrapper { height: 80% }
-
-
+  .input-bar-wrapper { font-size: 22px;}
 }
 
 /* bootstrap breakpoint of medium tablet styles, inputBar and FontProperties in one line */
 @media screen and (min-width: 768px) {
-  .input-bar-wrapper { height: 15% }
-  .font-result-wrapper { height: 85% }
+  .input-bar-wrapper { height: 20% }
+  .font-result-wrapper { height: 80% }
 }

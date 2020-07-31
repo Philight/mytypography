@@ -8,7 +8,7 @@
 	flex-wrap: nowrap;
 }
 
-.font-result label {
+.font-result output {
 	max-width: 100%;
 	word-wrap: break-word;
 }
