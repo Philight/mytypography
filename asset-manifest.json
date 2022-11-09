@@ -9,10 +9,10 @@
   "runtime~main.js.map": "/mytypography/static/js/runtime~main.390af42b.js.map",
   "static/media/logo.svg": "/mytypography/static/media/logo.ee7cd8ed.svg",
   "static/media/App.css": "/mytypography/static/media/minimalistbackground.10395a32.jpg",
-  "static/media/Fonts.css": "/mytypography/static/media/Roboto-ThinItalic.35a9c89a.ttf",
-  "static/css/main.ee3b8479.chunk.css.map": "/mytypography/static/css/main.ee3b8479.chunk.css.map",
+  "static/media/Fonts.css": "/mytypography/static/media/Galada-Regular.d7d86e7e.ttf",
   "static/css/1.ec064b72.chunk.css.map": "/mytypography/static/css/1.ec064b72.chunk.css.map",
+  "static/css/main.ee3b8479.chunk.css.map": "/mytypography/static/css/main.ee3b8479.chunk.css.map",
   "index.html": "/mytypography/index.html",
-  "precache-manifest.0bad7e59548ac5d25d0420e8ceacdb62.js": "/mytypography/precache-manifest.0bad7e59548ac5d25d0420e8ceacdb62.js",
+  "precache-manifest.2fc2b0922a211f3b052b920e6c9a27bd.js": "/mytypography/precache-manifest.2fc2b0922a211f3b052b920e6c9a27bd.js",
   "service-worker.js": "/mytypography/service-worker.js"
 }
