@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6e8aa376799d9c537857",
-    "url": "/mytypography/static/css/main.a9fe8d2c.chunk.css"
+    "revision": "8055a52e9a624d8cd058",
+    "url": "/mytypography/static/css/main.ea729267.chunk.css"
   },
   {
-    "revision": "6e8aa376799d9c537857",
-    "url": "/mytypography/static/js/main.6e8aa376.chunk.js"
+    "revision": "8055a52e9a624d8cd058",
+    "url": "/mytypography/static/js/main.8055a52e.chunk.js"
   },
   {
-    "revision": "4da8ef497163ff7d6fc5",
-    "url": "/mytypography/static/css/1.a869cd59.chunk.css"
+    "revision": "2034fc9aebf88e74de29",
+    "url": "/mytypography/static/css/1.7f0dbb35.chunk.css"
   },
   {
-    "revision": "4da8ef497163ff7d6fc5",
-    "url": "/mytypography/static/js/1.4da8ef49.chunk.js"
+    "revision": "2034fc9aebf88e74de29",
+    "url": "/mytypography/static/js/1.2034fc9a.chunk.js"
   },
   {
     "revision": "390af42bc8d8d6c9b259",
@@ -28,59 +28,59 @@ self.__precacheManifest = [
     "url": "/mytypography/static/media/minimalistbackground.10395a32.jpg"
   },
   {
-    "revision": "11eabca2251325cfc5589c9c6fb57b46",
-    "url": "/mytypography/static/media/Roboto-Regular.11eabca2.ttf"
-  },
-  {
     "revision": "5ebb24ee1112dd9562629375c387879a",
     "url": "/mytypography/static/media/Roboto-Black.5ebb24ee.ttf"
   },
   {
-    "revision": "5b44818d2b9eda3e23cd5edd7b49b7d5",
-    "url": "/mytypography/static/media/Roboto-BoldItalic.5b44818d.ttf"
+    "revision": "11eabca2251325cfc5589c9c6fb57b46",
+    "url": "/mytypography/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
     "revision": "99682a78fa4fe61e1177b94757336bbf",
     "url": "/mytypography/static/media/Roboto-BlackItalic.99682a78.ttf"
   },
   {
-    "revision": "a720f17aa773e493a7ebf8b08459e66c",
-    "url": "/mytypography/static/media/Roboto-Italic.a720f17a.ttf"
-  },
-  {
     "revision": "e07df86cef2e721115583d61d1fb68a6",
     "url": "/mytypography/static/media/Roboto-Bold.e07df86c.ttf"
   },
   {
-    "revision": "a3ce4440f2abf76f4a1b14b83920138c",
-    "url": "/mytypography/static/media/Roboto-LightItalic.a3ce4440.ttf"
-  },
-  {
-    "revision": "58aef543c97bbaf6a9896e8484456d98",
-    "url": "/mytypography/static/media/Roboto-Medium.58aef543.ttf"
+    "revision": "5b44818d2b9eda3e23cd5edd7b49b7d5",
+    "url": "/mytypography/static/media/Roboto-BoldItalic.5b44818d.ttf"
   },
   {
     "revision": "88823c2015ffd5fa89d567e17297a137",
     "url": "/mytypography/static/media/Roboto-Light.88823c20.ttf"
   },
   {
+    "revision": "a720f17aa773e493a7ebf8b08459e66c",
+    "url": "/mytypography/static/media/Roboto-Italic.a720f17a.ttf"
+  },
+  {
     "revision": "cf23e1bb619029496260760b72aebd30",
     "url": "/mytypography/static/media/Roboto-MediumItalic.cf23e1bb.ttf"
   },
   {
-    "revision": "35a9c89aff1396595ad345e378a32aca",
-    "url": "/mytypography/static/media/Roboto-ThinItalic.35a9c89a.ttf"
+    "revision": "58aef543c97bbaf6a9896e8484456d98",
+    "url": "/mytypography/static/media/Roboto-Medium.58aef543.ttf"
+  },
+  {
+    "revision": "a3ce4440f2abf76f4a1b14b83920138c",
+    "url": "/mytypography/static/media/Roboto-LightItalic.a3ce4440.ttf"
   },
   {
     "revision": "321de678e592d0b8f44f1a82d7ca4b62",
     "url": "/mytypography/static/media/Roboto-Thin.321de678.ttf"
   },
   {
+    "revision": "35a9c89aff1396595ad345e378a32aca",
+    "url": "/mytypography/static/media/Roboto-ThinItalic.35a9c89a.ttf"
+  },
+  {
     "revision": "d7d86e7e7e6fdfcac55037c13bafde3a",
     "url": "/mytypography/static/media/Galada-Regular.d7d86e7e.ttf"
   },
   {
-    "revision": "6dc867fb4730412f173a1f9ee172501c",
+    "revision": "c776720461c53889c5a4fd25ae4dc06c",
     "url": "/mytypography/index.html"
   }
 ];
