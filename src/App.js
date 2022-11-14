@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
+
 import Heading from './components/Heading';
 import FontResult from './components/FontResult';
 import FontProperties from './components/FontProperties';
@@ -48,8 +52,11 @@ class App extends Component {
   render () {
     return (
       <div className="outer-container">
+
         <div className="container">
+
           <Heading />
+
           <div className="container-body">
             <div className="row input-bar-wrapper">
               <InputBar 
@@ -78,8 +85,11 @@ class App extends Component {
               />
             </div>
           </div>
+
           <Footing />
+
         </div>
+
       </div>
     )
   }
