@@ -1,18 +1,20 @@
 # myTypography
+- Web SPA
+- Fontify your text
+### 🚀 LIVE 🌎 https://philight.github.io/mytypography/
+##### <br />
 
 ## DEMO
-https://philight.github.io/mytypography/
 
-
-## Built with:
-* React
-* Bootstrap
-* Google Fonts API
-* Navi (for adding meta tags)
+## 🧰 BUILT WITH
+- React.js
+- Bootstrap
+- Google Fonts API
+- Navi (for adding meta tags)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## ⚙️ AVAILABLE SCRIPTS
 
 In the project directory, you can run:
 
